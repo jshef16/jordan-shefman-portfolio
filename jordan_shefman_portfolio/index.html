@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jordan Shefman's Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@1&family=Poppins:wght@400;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class = "logo">
+            <img src = "img/logo.jpeg" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class= "section__title section__title--intro">
+            Hi, I am <strong>Jordan Shefman</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">&lt; full-stack dev &gt;</p>
+        <img src = "img/profpic.jpeg" alt="a picture of me smiling" class="intro__img">
+    </section>
+
+    <!-- My Work -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I Do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Front End Dev</h3>
+                <p>My skills in HTML, CSS, and JavaScript (and Vue & Angular) make me a valuable web developer. I have studied user interface and experience in depth, learning and putting to use things like Fitts' and Steering Laws and affordances and signifiers. Through my studies, I led a team in creating an interface that we first designed with Figma, and then coded out from scratch.</p>
+            </div>
+
+            <div class="service">
+                <h3>Back End Dev</h3>
+                <p>I first learned programming through C++. From there, it made it easy to learn other object-oriented programming languages like Java and Python. I am also very experienced in database management using SQL. My back-end programming skills provide the foundation for all of my programming accomplishments.</p>
+            </div>
+
+            <div class="service">
+                <h3>High Quality Tester</h3>
+                <p>Testing is a skill that I have developed over my years coding. Everyone starts small, but I have learned to put together full test suites. I have been challenged by creating test suites for code bases with tens of millions of lines of code, using methods such as black-box, white-box, and mutation testing. I have experience tesing on multiple levels, including unit, system, integration, and acceptance testing.</p>
+            </div>
+        </div>
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About Me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I Am</h2>
+        <p class="section__subtitle section__subtitle--about">Designer & developer from Metro Detroit</p>
+
+        <div class="about-me__body">
+            <p>I attended the University of Michigan with a Bachelors in Computer Science. A lot of my course work was completed in C++, but I have experience in tons of other programming languages! I have picked up other languages from classes, summer internships, and personal projects. I think of myself as a very creative person, which is the biggest reason that I enjoy coding. To me, the best part about programming is that there is never just one answer.</p>
+            <p>In my free time, I am a huge sports fan. I follow all of the Michigan teams, as well as the Detroit professional teams (that's been a struggle). I play football, basketball, and pickleball recreationally. Outside of sports, I really enjoy music, both listening and creating!</p>
+        </div>
+
+        <img src="img/IMG_3242.jpeg" alt="REPLACE THIS IMAGE" class="about-me__img">
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My Work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+        <div class="portfolio">
+            <a href="portfolio-item-1.html#portfolio-item-1" class="portfolio__item">
+                <img src="img/NFL.jpeg" alt="" class="portfolio__img">
+            </a>
+
+            <a href="portfolio-item-2.html#portfolio-item-2" class="portfolio__item">
+                <img src="img/mario.jpeg" alt="" class="portfolio__img">
+            </a>
+
+            <a href="portfolio-item-3.html#portfolio-item-3" class="portfolio__item">
+                <img src="img/ux.jpeg" alt="" class="portfolio__img">
+            </a>
+
+            <a href="portfolio-item-4.html#portfolio-item-4" class="portfolio__item">
+                <img src="img/resume.jpeg" alt="" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <h3>Contact Me!<hr></h3>
+        <a href="mailto:jshefman@umich.edu" class="footer__link">jshefman@umich.edu</a>
+        <a href="tel:2489128335" class="footer__link">(248) 912-8335</a>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
